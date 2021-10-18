@@ -1,10 +1,9 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-	'/',
-  '/index.html',
-  '/manifest.json',
-  '/app.js',
-  'service-worker.js'
+	'./',
+  './index.html',
+  './manifest.json',
+  './app.js',
 ];
 
 self.addEventListener('install', function(event) {
