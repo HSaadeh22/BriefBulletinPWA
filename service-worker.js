@@ -3,7 +3,8 @@ var urlsToCache = [
 	'/',
   '/index.html',
   '/manifest.json',
-  '/app.js'
+  '/app.js',
+  'service-worker.js'
 ];
 
 self.addEventListener('install', function(event) {
