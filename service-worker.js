@@ -1,7 +1,7 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
 	'./',
-  'hsaadeh22.github.io/BriefBulletinPWA/'
+  './index.html',
 ];
 
 self.addEventListener('install', function(event) {
